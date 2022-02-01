@@ -11,15 +11,15 @@ import { TiSocialTwitter } from "react-icons/ti";
 
 export const SidebarData: SidebarItem[] = [
     {
-        title: 'Tietoa',
-        path: '/tiedot',
+        title: 'Home',
+        path: '/intro',
         icon: <AiOutlineHome />,
         iconClosed: <AiFillCaretDown />,
         iconOpened: <AiFillCaretUp />,
         subnav: [
             {
-                title: 'Kuka olen?',
-                path: '/overview/perustietoa',
+                title: 'Information',
+                path: '/overview/info',
                 icon: <AiOutlineUser />
             },
             {
@@ -30,13 +30,13 @@ export const SidebarData: SidebarItem[] = [
         ]
     },
     {
-        title: 'Projektit',
-        path: '/projektit',
+        title: 'Projects',
+        path: '/projects',
         icon: <AiOutlineGithub />
     },
     {
-        title: 'Sosiaaliset mediat',
-        path: '/socialmedia',
+        title: 'Contact me',
+        path: '/social',
         icon: <TiSocialTwitter />
     },
 ];

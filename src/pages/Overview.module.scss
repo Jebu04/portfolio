@@ -1,0 +1,88 @@
+.intro {
+
+    h1 {
+        text-align: center;
+        font-size: 52px;
+        color: rgb(170, 28, 236);
+        text-shadow: 3px 3px #575757;
+    }
+}
+
+.info {
+
+    h1 {
+        text-align: center;
+        font-size: 52px;
+        color: rgb(170, 28, 236);
+        text-shadow: 3px 3px #575757;
+    }
+
+    p {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+    }
+
+    img {
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.projects {
+    
+    h1 {
+        text-align: center;
+        font-size: 52px;
+        color: rgb(170, 28, 236);
+        text-shadow: 3px 3px #575757;
+    }
+    
+    p {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+    }
+
+}
+
+.social {
+
+    h1 {
+        text-align: center;
+        font-size: 52px;
+        color: rgb(170, 28, 236);
+        text-shadow: 3px 3px #575757;
+    }
+    
+    a {
+        margin-top: 10px;
+        display: block;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+      
+    a:visited {
+        text-decoration: none;
+    }
+      
+    a:hover {
+        text-decoration: underline;
+    }
+      
+    a:active {
+        text-decoration: underline;
+    }
+}
