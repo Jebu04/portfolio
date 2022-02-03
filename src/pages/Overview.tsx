@@ -37,7 +37,15 @@ export const Info: FC = () => {
 
 export const CV: FC = () => {
     return (
-        <div className="cv">CV</div>
+        <>
+        <div className={styles.cv}>
+            <h1 className="cv">CV</h1>
+            </div>
+                <div>
+                    <p></p>
+                </div>
+                
+        </>
     )
 };
 
