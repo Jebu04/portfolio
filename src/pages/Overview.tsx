@@ -8,7 +8,7 @@ export const Intro: FC = () => {
     return (
         <>
         <div className={styles.intro}>
-        <img src={image} alt='Background' width="2000"/>
+        {/* <img src={image} alt='Background' width="2000"/> */}
             <h1 className="intro">Welcome to my portfolio project!</h1>
                 <div>
                 </div>
