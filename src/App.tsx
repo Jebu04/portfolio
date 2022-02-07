@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Intro, Info, CV, Projects, Social } from './pages/Overview';
 
 const App: FC = () => {
     return (
-        <Router>
+        <Router basename='portfolio'>
             <Sidebar />
             <Switch>
                 <Route path="/intro" component={Intro} exact></Route>
