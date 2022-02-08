@@ -10,7 +10,6 @@
     background-image: url("../media/image.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
-    background-position: center;
 
     h1 {
         @include headerStyle();
@@ -29,7 +28,7 @@
         margin: 0;
         font-weight: 400;
         font-size: 20px;
-        color: #000000;
+        color: rgb(170, 28, 236);
         padding: 0px;
     }
 
@@ -70,7 +69,7 @@
         margin: 0;
         font-weight: 400;
         font-size: 20px;
-        color: #000000;
+        color: rgb(170, 28, 236);
         padding: 0px;
     }
 
