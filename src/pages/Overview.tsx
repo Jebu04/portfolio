@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import styles from './Overview.module.scss';
 import me from '../media/me.jpg'
-import image from '../media/image.jpg'
 
 
 export const Intro: FC = () => {
