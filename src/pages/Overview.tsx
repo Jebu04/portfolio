@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import styles from './Overview.module.scss';
 import me from '../media/me.jpg'
+import cv from '../media/cv_pdf.pdf';
 
 
 export const Intro: FC = () => {
@@ -40,12 +41,14 @@ export const CV: FC = () => {
         <div className={styles.cv}>
             <h1 className="cv">CV</h1>
             </div>
-                <div>
-                    <p></p>
-                </div>
-                
+            <div>
+                <a href={cv} download="Jesse-Nordman-CV">
+                    Download CV
+                </a>
+            </div>
         </>
     )
+
 };
 
 export const Projects: FC = () => {

@@ -21,7 +21,7 @@ const App: FC = () => {
                 }
             >
                 <Switch>
-                    <Route path="/intro" component={Intro} exact></Route>
+                    <Route path="/" component={Intro} exact></Route>
                     <Route path="/overview/info" component={Info} exact></Route>
                     <Route path="/overview/cv" component={CV} exact></Route>
                     <Route path="/projects" component={Projects} exact></Route>

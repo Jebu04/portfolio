@@ -56,6 +56,32 @@
         color: #000000;
         padding: 0px;
     }
+
+    a {
+        margin-top: 10px;
+        display: block;
+        width: fit-content;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: purple;
+    }
+      
+    a:visited {
+        text-decoration: none;
+        color: purple;
+    }
+      
+    a:hover {
+        text-decoration: underline;
+        color: purple;
+    }
+      
+    a:active {
+        text-decoration: underline;
+        color: purple;
+    }
 }
 
 .projects {
@@ -84,21 +110,26 @@
     a {
         margin-top: 10px;
         display: block;
+        width: fit-content;
     }
 
     a:link {
         text-decoration: none;
+        color: purple;
     }
       
     a:visited {
         text-decoration: none;
+        color: purple;
     }
       
     a:hover {
         text-decoration: underline;
+        color: purple;
     }
       
     a:active {
         text-decoration: underline;
+        color: purple;
     }
 }

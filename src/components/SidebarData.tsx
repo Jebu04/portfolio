@@ -12,7 +12,7 @@ import { TiSocialTwitter } from "react-icons/ti";
 export const SidebarData: SidebarItem[] = [
     {
         title: 'Home',
-        path: '/intro',
+        path: '/',
         icon: <AiOutlineHome />,
         iconClosed: <AiFillCaretDown />,
         iconOpened: <AiFillCaretUp />,
