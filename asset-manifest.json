@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.c47045d8.css",
-    "main.js": "./static/js/main.ccda6cf6.js",
+    "main.css": "./static/css/main.da56cae5.css",
+    "main.js": "./static/js/main.fdbf2c7c.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
-    "static/media/image2.jpg": "./static/media/image2.2696c19e4f7ec52e9edd.jpg",
     "static/media/image5.jpg": "./static/media/image5.55814f848f7d93172805.jpg",
     "static/media/cv_pdf.pdf": "./static/media/cv_pdf.31dc9a9a0c09a21ae714.pdf",
+    "static/media/topdown.jpg": "./static/media/topdown.aaf7d88841bb4afaae30.jpg",
     "static/media/me.jpg": "./static/media/me.9340c491d746b009e103.jpg",
-    "static/media/image4.jpg": "./static/media/image4.87c7c4d4a19617241cf1.jpg",
     "static/media/image.jpg": "./static/media/image.1b2a3ec28abf43e43c95.jpg",
-    "static/media/image3.jpg": "./static/media/image3.0fc784bce965c9ef7762.jpg",
+    "static/media/wolfgame.jpg": "./static/media/wolfgame.58a24f592d2b9f29ace1.jpg",
+    "static/media/cvpage.jpg": "./static/media/cvpage.32a285fd87404cf2f8fa.jpg",
+    "static/media/starbackground.jpg": "./static/media/starbackground.2be87e8361f763d26de6.jpg",
     "index.html": "./index.html",
-    "main.c47045d8.css.map": "./static/css/main.c47045d8.css.map",
-    "main.ccda6cf6.js.map": "./static/js/main.ccda6cf6.js.map",
+    "main.da56cae5.css.map": "./static/css/main.da56cae5.css.map",
+    "main.fdbf2c7c.js.map": "./static/js/main.fdbf2c7c.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c47045d8.css",
-    "static/js/main.ccda6cf6.js"
+    "static/css/main.da56cae5.css",
+    "static/js/main.fdbf2c7c.js"
   ]
 }
