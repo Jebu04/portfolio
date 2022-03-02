@@ -2,6 +2,8 @@ import { FC } from 'react';
 import styles from './Overview.module.scss';
 import me from '../media/me.jpg'
 import cv from '../media/cv_pdf.pdf';
+import topdown from '../media/topdown.jpg';
+import wolfgame from '../media/wolfgame.jpg';
 
 
 export const Intro: FC = () => {
@@ -56,9 +58,21 @@ export const Projects: FC = () => {
         <>
         <div className={styles.projects}>
             <h1 className="projects">Projects</h1>
-                <div>
-                    <p>Here are all the projects I have been involved in:</p>
+            <div className={styles.cards}>
+                <div className={styles.projectCard}>
+                    <img src={topdown} alt="Topdown 2D"/>
+                    <h2>Unity game project</h2>
+                    <p>This is an 2D Topdown dungeon game I made with Unity.</p>
+                    <a href="https://play.unity.com/mg/other/dungeon-game" target='_blank'>You can play it here</a>
                 </div>
+
+                <div className={styles.projectCard}>
+                    <img src={wolfgame} alt="Wolfgame"/>
+                    <h2>Unity group project</h2>
+                    <p>This was school group project. My responsibility was to make enemy AI and combat system.</p>
+                    <a href="https://github.com/varia-ict/varia-agile-20C-ryhma-1" target='_blank'>Here is the github repository</a>
+                </div>
+            </div>
         </div>
         </>
     ) 
@@ -66,15 +80,13 @@ export const Projects: FC = () => {
 
 export const Social: FC = () => {
     return (
-        <>
         <div className={styles.social}>
-            <h1 className="social">Contact me via</h1>
-                <div>
-                    <a href="https://twitter.com/Jebu33">Twitter</a>
-                    <a href="https://www.linkedin.com/in/jesse-nordman-41608020b/">LinkedIn</a>
-                    <a href="https://github.com/Jebu04">GitHub</a>
-                </div>
+            <h1 className="social">Social media links</h1>
+            <div className={styles.someLinks}>
+                <a href="https://twitter.com/Jebu33" target='_blank'>Twitter</a>
+                <a href="https://www.linkedin.com/in/jesse-nordman-41608020b/" target='_blank'>LinkedIn</a>
+                <a href="https://github.com/Jebu04" target='_blank'>GitHub</a>
+            </div>
         </div>
-        </>
     )
 };

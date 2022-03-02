@@ -1,8 +1,9 @@
 @mixin headerStyle {
         text-align: center;
         font-size: 52px;
-        color: rgb(170, 28, 236);
+        color: rgb(223, 187, 240);
         text-shadow: 3px 3px #575757;
+        text-decoration: underline;
 }
 
 .intro {
@@ -19,7 +20,7 @@
 
 .info {
 
-    background-image: url("../media/image2.jpg");
+    background-image: url("../media/starbackground.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
 
@@ -32,8 +33,10 @@
         margin: 0;
         font-weight: 400;
         font-size: 20px;
-        color: rgb(170, 28, 236);
+        color: rgb(225, 171, 250);
         padding: 0px;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        margin-top: 10px;
     }
 
     img {
@@ -48,7 +51,7 @@
 
 .cv {
 
-    background-image: url("../media/image3.jpg");
+    background-image: url("../media/cvpage.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
 
@@ -95,8 +98,8 @@
 
 .projects {
 
-    background-image: url("../media/image4.jpg");
-    background-size: cover;
+    //background-image: url("../media/image4.jpg");
+    //background-size: cover;
     height: calc(100vh - 80px);
     
     h1 {
@@ -107,9 +110,45 @@
         text-align: center;
         margin: 0;
         font-weight: 400;
-        font-size: 20px;
-        color: rgb(170, 28, 236);
+        font-size: 19px;
+        color: rgb(225, 171, 250);
         padding: 0px;
+    }
+    .cards {
+        display: flex;
+    }
+    .projectCard {
+        background: rgb(0, 0, 0);
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px outset rgb(255, 255, 255);
+        margin: 8px;
+
+        img {
+            max-width: 300px;
+        }
+    }
+
+    a:link {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:visited {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:active {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
     }
 
 }
@@ -119,6 +158,7 @@
     background-image: url("../media/image5.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
+    position: relative;
 
     h1 {
         @include headerStyle();
@@ -128,6 +168,17 @@
         margin-top: 10px;
         display: block;
         width: fit-content;
+    }
+
+    .someLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 35px;
+        margin: 0 15px;
     }
 
     a:link {
@@ -142,7 +193,7 @@
       
     a:hover {
         text-decoration: underline;
-        color: purple;
+        color: rgb(255, 255, 255);
     }
       
     a:active {
