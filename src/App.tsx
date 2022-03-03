@@ -1,9 +1,13 @@
 import React, { FC, useState } from 'react';
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import { Intro, Info, CV, Projects, Social } from './pages/Overview';
 import styles from './App.module.scss';
+import Intro from './components/intro/intro';
+import Info from './components/info/info';
+import Cv from './components/cv/cv';
+import Projects from './components/projects/projects';
+import Social from './components/social/social';
 
 const App: FC = () => {
     const [sidebarOpenState, setSidebarOpenState] = useState(false);
@@ -23,7 +27,7 @@ const App: FC = () => {
                 <Switch>
                     <Route path="/" component={Intro} exact></Route>
                     <Route path="/overview/info" component={Info} exact></Route>
-                    <Route path="/overview/cv" component={CV} exact></Route>
+                    <Route path="/overview/cv" component={Cv} exact></Route>
                     <Route path="/projects" component={Projects} exact></Route>
                     <Route path="/social" component={Social} exact></Route>
                 </Switch>

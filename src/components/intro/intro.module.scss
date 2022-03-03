@@ -1,0 +1,13 @@
+@import '../theme.module.scss';
+
+.intro {
+
+    background-image: url("../../media/image.jpg");
+    background-size: cover;
+    height: calc(100vh - 80px);
+
+    h1 {
+        @include headerStyle();
+        filter: drop-shadow(1px 1px rgba(163, 163, 163, 0.493));
+    }
+}

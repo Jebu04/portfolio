@@ -1,0 +1,67 @@
+@import '../theme.module.scss';
+
+.projects {
+
+    height: calc(100vh - 80px);
+    
+    h1 {
+        @include headerStyle();
+    }
+    
+    p {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        font-size: 19px;
+        color: rgb(225, 171, 250);
+        padding: 0px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        // @media screen and (max-width: 1049) {
+        //     flex-direction: column;
+        // }
+    }
+    .projectCard {
+        background: rgb(0, 0, 0);
+        width: 400px;
+        min-height: 281px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px outset rgb(255, 255, 255);
+        margin: 8px;
+        margin-top: 50px;
+        -webkit-filter: drop-shadow(5px 5px 5px 15px white);
+        filter: drop-shadow(5px 5px 15px white);
+        img {
+            max-width: 300px;
+        }
+    }
+
+    a:link {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:visited {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:active {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+
+}

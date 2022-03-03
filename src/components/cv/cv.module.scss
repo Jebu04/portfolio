@@ -1,0 +1,63 @@
+@import '../theme.module.scss';
+
+.cv {
+
+    background-image: url("../../media/cvpage.jpg");
+    background-size: cover;
+    height: calc(100vh - 80px);
+    position: relative;
+
+    h1 {
+        @include headerStyle();
+    }
+
+    .cvHeader {
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        text-shadow: 3px 3px #575757;
+    }
+
+    p {
+        
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0px;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+
+    .cvLink {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    a {
+        margin-top: 30px;
+        display: block;
+        width: fit-content;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: purple;
+    }
+      
+    a:visited {
+        text-decoration: none;
+        color: purple;
+    }
+      
+    a:hover {
+        text-decoration: underline;
+        color: purple;
+    }
+      
+    a:active {
+        text-decoration: underline;
+        color: purple;
+    }
+
+}

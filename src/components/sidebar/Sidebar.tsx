@@ -1,5 +1,4 @@
-import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
+import React, { FC, useEffect } from 'react';
 import { IconContext } from 'react-icons';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
@@ -14,19 +13,25 @@ interface SidebarProps {
 const Sidebar: FC<SidebarProps> = ({ sidebarIsOpen, setSidebarIsOpen }) => {
     const showSidebar = () => setSidebarIsOpen(!sidebarIsOpen);
 
+    useEffect(() => {
+        const screenWidth = window.innerWidth
+        if (screenWidth <= 800) return setSidebarIsOpen(false);
+        setSidebarIsOpen(true)
+    }, [setSidebarIsOpen])
+
     return (
         <div className={styles.container}>
             <IconContext.Provider value={{ color: '#fff' }}>
                 <div className={styles.nav}>
-                    <Link className={styles.navicon} to="#" onClick={showSidebar}>
+                    <div className={styles.navicon} onClick={showSidebar}>
                         <AiOutlineMenu />
-                    </Link>
+                    </div>
                 </div>
                 <div className={styles.sidebarnav} style={sidebarIsOpen ? {left: "0"} : {left: "-100%"}}>
                     <div>
-                        <Link className={styles.navicon} to="#" onClick={showSidebar}>
+                        <div className={styles.navicon} onClick={showSidebar}>
                             <AiOutlineClose />
-                        </Link>
+                        </div>
                         {SidebarData.map((item, index) => {
                             return <Submenu item={item} key={index} />;
                         })}

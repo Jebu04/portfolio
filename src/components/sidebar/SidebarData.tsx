@@ -6,7 +6,7 @@ import {
     AiOutlineSolution,
     AiOutlineGithub,
 } from 'react-icons/ai';
-import { SidebarItem } from '../models/SidebarItem';
+import { SidebarItem } from '../../models/SidebarItem';
 import { TiSocialTwitter } from "react-icons/ti";
 
 export const SidebarData: SidebarItem[] = [

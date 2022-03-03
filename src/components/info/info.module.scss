@@ -1,0 +1,32 @@
+@import '../theme.module.scss';
+
+.info {
+
+    background-image: url("../../media/starbackground.jpg");
+    background-size: cover;
+    height: calc(100vh - 80px);
+
+    h1 {
+        @include headerStyle();
+    }
+
+    p {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgb(225, 171, 250);
+        padding: 0px;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+
+    img {
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

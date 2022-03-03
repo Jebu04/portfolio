@@ -1,0 +1,50 @@
+@import '../theme.module.scss';
+
+.social {
+
+    background-image: url("../../media/image5.jpg");
+    background-size: cover;
+    height: calc(100vh - 80px);
+    position: relative;
+
+    h1 {
+        @include headerStyle();
+    }
+    
+    a {
+        margin-top: 10px;
+        display: block;
+        width: fit-content;
+    }
+
+    .someLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 35px;
+        margin: 0 15px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: rgb(223, 187, 240);
+    }
+      
+    a:visited {
+        text-decoration: none;
+        color: rgb(223, 187, 240);
+    }
+      
+    a:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+      
+    a:active {
+        text-decoration: underline;
+        color: purple;
+    }
+}
