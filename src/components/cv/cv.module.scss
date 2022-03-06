@@ -17,16 +17,6 @@
         text-shadow: 3px 3px #575757;
     }
 
-    p {
-        
-        margin: 0;
-        font-weight: 400;
-        font-size: 20px;
-        padding: 0px;
-        text-shadow: 2px 2px 5px rgb(0, 0, 0);
-        margin-top: 10px;
-    }
-
     .cvLink {
         display: flex;
         flex-direction: row;
@@ -42,17 +32,17 @@
 
     a:link {
         text-decoration: none;
-        color: purple;
+        color: rgb(223, 187, 240);
     }
       
     a:visited {
         text-decoration: none;
-        color: purple;
+        color: rgb(223, 187, 240);
     }
       
     a:hover {
         text-decoration: underline;
-        color: purple;
+        color: rgb(223, 187, 240);
     }
       
     a:active {
