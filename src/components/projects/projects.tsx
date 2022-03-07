@@ -15,14 +15,17 @@ const Projects: React.FC<ProjectsProps> = () => {
         <div className={styles.projectCard}>
             <img src={topdown} alt="Topdown 2D"/>
             <h2>Unity game project</h2>
-            <p>This is an 2D Topdown dungeon game I made with Unity.</p>
+            <p>This is an 2D Topdown dungeon game.</p>
+            <p>I made it with Unity Game Engine.</p>
+            <p>Code was written in C#.</p>
             <a href="https://play.unity.com/mg/other/dungeon-game" target='_blank' rel="noreferrer">You can play it here</a>
         </div>
 
         <div className={styles.projectCard}>
             <img src={wolfgame} alt="Wolfgame"/>
             <h2>Unity group project</h2>
-            <p>This was school group project. My responsibility was to make enemy AI and combat system.</p>
+            <p>This was school group project.</p>
+            <p>My responsibility was to make enemy AI and combat system.</p>
             <a href="https://github.com/varia-ict/varia-agile-20C-ryhma-1" target='_blank' rel="noreferrer">Here is the github repository</a>
         </div>
     </div>

@@ -10,7 +10,7 @@ import Projects from './components/projects/projects';
 import Social from './components/social/social';
 
 const App: FC = () => {
-    const [sidebarOpenState, setSidebarOpenState] = useState(false);
+    const [sidebarOpenState, setSidebarOpenState] = useState(window.innerWidth > 800);
     return (
         <Router basename='portfolio'>
             {/* Sidebar width: 250px */}

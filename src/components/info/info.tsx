@@ -12,10 +12,10 @@ const Info: React.FC<InfoProps> = () => {
         <div className={styles.me}>
         <h1 className="info">Who I am?</h1>
         </div>
-            <div>
-                <p>My name is Jesse Nordman and I am currently studying programming at Varia.</p>
-                <p>In programming, I am interested in making games and maintaining websites.</p>
-                <p>In my free time I like to play video games, go to the gym and see my friends.</p>
+            <div className={styles.aboutMe}>
+                <p>Hello! My name is Jesse Nordman.</p>
+                <p>I am currently studying programming at Vantaan ammattiopisto Varia.</p>
+                <p>In programming, I am interested in developing games and websites.</p>
             </div>
         <img src={me} alt='Me' width="200"/>
     </div>

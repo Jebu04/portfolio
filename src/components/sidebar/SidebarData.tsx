@@ -35,7 +35,7 @@ export const SidebarData: SidebarItem[] = [
         icon: <AiOutlineGithub />
     },
     {
-        title: 'Link tree',
+        title: 'Contact Me',
         path: '/social',
         icon: <TiSocialTwitter />
     },

@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react';
+import React, { FC } from 'react';
 import { IconContext } from 'react-icons';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { SidebarData } from './SidebarData';
@@ -12,12 +12,6 @@ interface SidebarProps {
 
 const Sidebar: FC<SidebarProps> = ({ sidebarIsOpen, setSidebarIsOpen }) => {
     const showSidebar = () => setSidebarIsOpen(!sidebarIsOpen);
-
-    useEffect(() => {
-        const screenWidth = window.innerWidth
-        if (screenWidth <= 800) return setSidebarIsOpen(false);
-        setSidebarIsOpen(true)
-    }, [setSidebarIsOpen])
 
     return (
         <div className={styles.container}>
