@@ -16,6 +16,37 @@
         color: rgb(225, 171, 250);
         padding: 0px;
     }
+
+    .myLinks {
+        margin-top: 25px;
+        text-align: center;
+
+        a {
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: rgb(223, 187, 240);
+        }
+          
+        a:visited {
+            text-decoration: none;
+            color: rgb(223, 187, 240);
+        }
+          
+        a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+          
+        a:active {
+            text-decoration: underline;
+            color: purple;
+        }
+    }
+
     .cards {
         display: flex;
         flex-direction: row;
@@ -30,7 +61,7 @@
     .projectCard {
         background: rgb(0, 0, 0);
         width: 400px;
-        min-height: 281px;
+        min-height: 311px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -41,7 +72,18 @@
         filter: drop-shadow(5px 5px 15px white);
         img {
             max-width: 300px;
+            min-height: 167px;
         }
+    }
+
+    h2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    a {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     a:link {

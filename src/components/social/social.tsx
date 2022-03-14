@@ -19,7 +19,7 @@ const Social: React.FC<SocialProps> = () => {
                 <img src={me} alt='Me' width="200"/>
             </div>
             <div className={styles.some}>
-            <h1>Social Media Links</h1>
+            {/* <h1>Social Media Links</h1> */}
             </div>
             <div className={styles.someLinks}>
                 <a href="https://twitter.com/Jebu33" target='_blank' rel="noreferrer">Twitter</a>

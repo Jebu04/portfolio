@@ -113,6 +113,76 @@
         color:rgb(0, 236, 225);
     }
 
+    .skills {
+        color: white;
+        width: 80%;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        height: fit-content;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+
+    .skills h1 {
+        margin-top: 10px;
+        color: rgb(217, 219, 223);
+        font-size: 35px;
+        text-shadow: none;
+        text-decoration: none;
+    }
+
+    .skills h2 {
+        display: block;
+        font-size: 1.02em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color:rgb(0, 236, 225);
+    }
+
+    .skills p {
+        font-style: italic;
+        padding: 5px;
+    }
+
+    .languages {
+        color: white;
+        width: 80%;
+        border: 1px solid rgba(255, 255, 255, 0.281);
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        height: fit-content;
+        background-color: rgba(0, 0, 0, 0.700);
+    }
+
+    .languages h1 {
+        margin-top: 10px;
+        color: rgb(217, 219, 223);
+        font-size: 35px;
+        text-shadow: none;
+        text-decoration: none;
+    }
+
+    .languages h2 {
+        display: block;
+        font-size: 1.02em;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color:rgb(0, 236, 225);
+    }
+
+    .languages li {
+        list-style-type: square;
+        text-align: center;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
     .cvLink {
         display: flex;
         flex-direction: row;
