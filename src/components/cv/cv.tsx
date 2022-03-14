@@ -51,6 +51,15 @@ const Cv: React.FC<CvProps> = () => {
                   <li>Native language</li>
                 <h2>English</h2>
                   <li>Very good</li>
+              <h1>Code Languages</h1>
+                <h2>HTML/CSS</h2>
+                  <li>Good</li>
+                <h2>TypeScript</h2>
+                  <li>Good</li>
+                <h2>C#</h2>
+                  <li>Good</li>
+                <h2>SQL</h2>
+                  <li>Still have to do learning</li>
               </div>
               <div className={styles.cvLink}>
                     <a href={cv} download="Jesse-Nordman-CV">
