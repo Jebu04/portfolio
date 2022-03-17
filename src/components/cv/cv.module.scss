@@ -2,7 +2,7 @@
 
 .cv {
 
-    background-image: url("../../media/cvpage.jpg");
+    background-image: url("../../media/starbackground.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
     position: relative;
@@ -209,17 +209,17 @@
 
     a:link {
         text-decoration: none;
-        color:rgb(181, 0, 236);
+        color: rgb(223, 187, 240);
     }
       
     a:visited {
         text-decoration: none;
-        color:rgb(181, 0, 236);
+        color: rgb(223, 187, 240);
     }
       
     a:hover {
         text-decoration: underline;
-        color:rgb(181, 0, 236);
+        color: rgb(255, 255, 255);
     }
       
     a:active {

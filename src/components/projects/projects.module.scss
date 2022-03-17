@@ -2,7 +2,10 @@
 
 .projects {
 
+    background-image: url("../../media/starbackground.jpg");
+    background-size: cover;
     height: calc(100vh - 80px);
+    position: relative;
     
     h1 {
         @include headerStyle();
