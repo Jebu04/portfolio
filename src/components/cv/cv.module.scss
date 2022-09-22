@@ -36,6 +36,8 @@
     .aboutMe p {
         font-style: italic;
         padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 1.25%;
     }
 
     .education {
@@ -73,6 +75,7 @@
     .education p {
         font-style: italic;
         padding: 10px;
+        margin-bottom: 1.25%;
     }
 
     .education li {
@@ -103,6 +106,7 @@
     .workExp p {
         font-style: italic;
         padding: 10px;
+        margin-bottom: 1.25%;
     }
 
     .workExp li {
@@ -155,6 +159,7 @@
     .skills p {
         font-style: italic;
         padding: 8px;
+        margin-bottom: 0.52%;
     }
 
     .languages {
@@ -193,38 +198,4 @@
         margin-right: 20px;
         margin-bottom: 15px;
     }
-
-    .cvLink {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    a {
-        margin-top: 20px;
-        display: block;
-        width: fit-content;
-        font-size: 20px;
-    }
-
-    a:link {
-        text-decoration: none;
-        color: rgb(223, 187, 240);
-    }
-      
-    a:visited {
-        text-decoration: none;
-        color: rgb(223, 187, 240);
-    }
-      
-    a:hover {
-        text-decoration: underline;
-        color: rgb(255, 255, 255);
-    }
-      
-    a:active {
-        text-decoration: underline;
-        color: purple;
-    }
-
 }

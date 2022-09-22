@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './cv.module.scss'
-import cv from '../../media/cv_pdf.pdf';
 
 type CvProps = {
 
@@ -10,11 +9,6 @@ const Cv: React.FC<CvProps> = () => {
   return (
         <div className={styles.cv}>
             <h1 className="cv">CV</h1>
-            <div className={styles.cvLink}>
-                    <a href={cv} download="Jesse-Nordman-CV">
-                        Finnish CV
-                    </a>
-              </div>
             <div className={styles.aboutMe}>
               <h1>About Me</h1>
               <p>I am really willing and motivated to learn new things. I can solve problems one way or another. Patience is my specialty.</p>
