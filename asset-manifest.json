@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9a4fcc01.css",
-    "main.js": "./static/js/main.9fe310ba.js",
+    "main.css": "./static/css/main.07fba122.css",
+    "main.js": "./static/js/main.413ad279.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolioproject.png": "./static/media/portfolioproject.5ec3da34dd0b4f91e2a2.png",
     "static/media/topdown.jpg": "./static/media/topdown.aaf7d88841bb4afaae30.jpg",
@@ -9,13 +9,14 @@
     "static/media/image.jpg": "./static/media/image.1b2a3ec28abf43e43c95.jpg",
     "static/media/wolfgame.jpg": "./static/media/wolfgame.58a24f592d2b9f29ace1.jpg",
     "static/media/starbackground.jpg": "./static/media/starbackground.2be87e8361f763d26de6.jpg",
+    "static/media/comingsoon.jpg": "./static/media/comingsoon.375968d5843c1e9ac060.jpg",
     "index.html": "./index.html",
-    "main.9a4fcc01.css.map": "./static/css/main.9a4fcc01.css.map",
-    "main.9fe310ba.js.map": "./static/js/main.9fe310ba.js.map",
+    "main.07fba122.css.map": "./static/css/main.07fba122.css.map",
+    "main.413ad279.js.map": "./static/js/main.413ad279.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4fcc01.css",
-    "static/js/main.9fe310ba.js"
+    "static/css/main.07fba122.css",
+    "static/js/main.413ad279.js"
   ]
 }
