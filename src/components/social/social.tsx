@@ -14,7 +14,7 @@ const Social: React.FC<SocialProps> = () => {
         <div className={styles.aboutMe}>
             <h1>Who I am?</h1>
                 <p>Hello! My name is Jesse Nordman.</p>
-                <p>I am currently studying programming at Vantaan ammattiopisto Varia.</p>
+                <p>I am currently unemployed and working as a freelancer.</p>
                 <p>In programming, I am interested in developing video games and websites.</p>
                 <img src={me} alt='Me' width="200"/>
             </div>
@@ -25,6 +25,7 @@ const Social: React.FC<SocialProps> = () => {
                 <a href="https://twitter.com/Jebu33" target='_blank' rel="noreferrer">Twitter</a>
                 <a href="https://www.linkedin.com/in/jesse-nordman-41608020b/" target='_blank' rel="noreferrer">LinkedIn</a>
                 <a href="https://github.com/Jebu04" target='_blank' rel="noreferrer">GitHub</a>
+                <a href="mailto:jesse.s.nordman@gmail.com">Gmail</a>
             </div>
     </div>
     </div>

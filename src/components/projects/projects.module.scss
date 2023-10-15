@@ -57,56 +57,74 @@
         justify-content: center;
         flex-wrap: wrap;
         
-        // @media screen and (max-width: 1049) {
-        //     flex-direction: column;
-        // }
+        @media (max-width: 768px) {
+            .projectCard {
+                flex: 1 1 calc(50% - 16px); /* Adjust the width for smaller screens */
+                }
+            }
+        
+            @media (max-width: 480px) {
+            .projectCard {
+                flex: 1 1 calc(100% - 16px); /* Adjust the width for even smaller screens */
+                margin: 8px 0; /* Adjust the margin for smaller screens */
+                }
+            }
     }
     .projectCard {
         background: rgb(0, 0, 0);
-        width: 400px;
+        width: calc(33.33% - 16px);
         min-height: 311px;
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         align-items: center;
         border: 1px outset rgb(255, 255, 255);
         margin: 8px;
         margin-top: 50px;
+        box-sizing: border-box;
         -webkit-filter: drop-shadow(5px 5px 5px 15px white);
         filter: drop-shadow(5px 5px 15px white);
+        
         img {
-            max-width: 300px;
+            display: block;
+            max-width: 100%;
             min-height: 167px;
+            margin: 0 auto;
+        }
+        h2,
+        p,
+        a {
+            text-align: center; /* Center the text */
+            margin: 10px 20px; /* Adjust margin for spacing */
+        }
+
+        a {
+            display: block; /* Make the link fill the width */
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+            &:hover {
+            text-decoration: underline;
+            }
+        }
+
+        a:link {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        
+        a:visited {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+        
+        a:active {
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
         }
     }
-
-    h2 {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    a {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    a:link {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
-      
-    a:visited {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
-      
-    a:hover {
-        text-decoration: underline;
-        color: rgb(255, 255, 255);
-    }
-      
-    a:active {
-        text-decoration: underline;
-        color: rgb(255, 255, 255);
-    }
-
 }

@@ -3,6 +3,7 @@ import styles from './projects.module.scss'
 import topdown from '../../media/topdown.jpg'
 import wolfgame from '../../media/wolfgame.jpg'
 import portfolio from '../../media/portfolioproject.png'
+import comingsoon from '../../media/comingsoon.jpg'
 
 type ProjectsProps = {
 
@@ -38,9 +39,15 @@ const Projects: React.FC<ProjectsProps> = () => {
             <img src={portfolio} alt="Portfolio"/>
             <h2>Portfolio project</h2>
             <p>This is my portfolio project.</p>
-            <p>I wrote it mainly with typescript and scss.</p>
+            <p>I wrote it mainly with Typescript and SCSS.</p>
             <p>It was my first ever react project.</p>
             <a href="https://github.com/Jebu04/portfolio" target='_blank' rel="noreferrer">Here is the GitHub repository link</a>
+        </div>
+
+        <div className={styles.projectCard}>
+          <img src={comingsoon} alt="Coming Soon"/>
+          <h2>New Project</h2>
+          <p>Teaser it's a new game.</p>
         </div>
 
     </div>

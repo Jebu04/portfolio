@@ -11,9 +11,10 @@ const Cv: React.FC<CvProps> = () => {
             <h1 className="cv">CV</h1>
             <div className={styles.aboutMe}>
               <h1>About Me</h1>
+              <p>My name is Jesse Nordman and I am a 19 years old man from Finland.</p>
+              <p>I spend my free time going to the gym and seeing my friends. I also like gaming and developing video games.</p>
+              <p>I usually use public transportation when im going to school/work, but in summer time I like using my bike for traveling.</p>
               <p>I am really willing and motivated to learn new things. I can solve problems one way or another. Patience is my specialty.</p>
-              <p>I spend my free time going to the gym and seeing my friends. I also like gaming.</p>
-              <p>I usually use public transportation when im going to school/work, but in summer time I like using bike.</p>
             </div>
             <div className={styles.education}>
               <h1>Education</h1>
@@ -31,7 +32,10 @@ const Cv: React.FC<CvProps> = () => {
                     <p>Updates for computers and phones. Also did some inventory and organization.</p>
                 <h2>Summer job</h2>
                   <li>NordSolar Oy - From June 2021 to August 2021</li>
-                    <p>Maintaining an e-commerce.</p> 
+                    <p>Maintaining an e-commerce.</p>
+                <h2>Another summer job</h2>
+                  <li>Orange Express Oy - From July 2022 to September 2022</li>
+                    <p>Transport service. Installation of dishwashers and washing machines.</p>
               </div>
               <div className={styles.skills}>
                 <h1>Skills</h1>
@@ -40,7 +44,12 @@ const Cv: React.FC<CvProps> = () => {
                   <h2>Where I learned that skill?</h2>
                     <p>The biggest factor has been playing game called Counter-Strike Global Offensive. I'm very competetive person and I like the feeling being in under pressure.</p>
                     <p>I have been involved in many Counter-Strike tournaments and competitions so I have alot of experience in team work.</p>
-                    <p>Most of the times I play the role of In Game Leader (IGL). I will callout the strategies and give instructions to my teammates.</p>
+                  <h2>Army time</h2>
+                    <p>I joined the army in January 2023 to do my 1 year mandatory service for the country.</p> 
+                    <p>My field of study was Anti-aircraft warfare. I've had various experiences there with radar and computer systems.</p>
+                    <p>I finished the NCO course and after that I had over 90 subordinates which I commanded for 3 months. </p>
+                    <p>In October I decided to switch to for civil service, because of change of plans in life.</p>
+                    <p>Army taught me alot of things about life and leadership. Team work and group spirit was the most important things.</p>
                   <h2>Patience</h2>
                     <p>I am very chill person. Thats where my patience come from. I don't want to rush anything. I always take my time for everything.</p>
               </div>
